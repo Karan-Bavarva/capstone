@@ -1,0 +1,14 @@
+.courses {
+  padding: 2rem;
+}
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.loading-text, .no-courses-text {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New User Registration</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f3f4f6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #f3f4f6; padding: 20px;">
+    <tr>
+      <td align="center">
+        <table width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <!-- Header -->
+          <tr>
+            <td style="background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%); padding: 40px 30px; text-align: center;">
+              <h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: bold;">👤 New User Registration</h1>
+            </td>
+          </tr>
+          
+          <!-- Content -->
+          <tr>
+            <td style="padding: 40px 30px;">
+              <h2 style="color: #1f2937; margin-top: 0; font-size: 22px;">Admin Notification</h2>
+              
+              <p style="color: #4b5563; font-size: 16px; line-height: 1.6; margin: 20px 0;">
+                A new user has registered on the platform:
+              </p>
+              
+              <div style="background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 20px; margin: 25px 0; border-radius: 4px;">
+                <table width="100%" cellpadding="8" cellspacing="0">
+                  <tr>
+                    <td style="color: #1e40af; font-size: 14px; font-weight: 600; width: 100px;">Name:</td>
+                    <td style="color: #1f2937; font-size: 14px; font-weight: bold;"><%= name %></td>
+                  </tr>
+                  <tr>
+                    <td style="color: #1e40af; font-size: 14px; font-weight: 600;">Email:</td>
+                    <td style="color: #1f2937; font-size: 14px;"><%= email %></td>
+                  </tr>
+                  <tr>
+                    <td style="color: #1e40af; font-size: 14px; font-weight: 600;">Role:</td>
+                    <td style="color: #1f2937; font-size: 14px;"><span style="display: inline-block; background-color: #dbeafe; color: #1e40af; padding: 4px 12px; border-radius: 12px; font-weight: 600; font-size: 12px;"><%= userType %></span></td>
+                  </tr>
+                </table>
+              </div>
+              
+              <p style="color: #4b5563; font-size: 16px; line-height: 1.6; margin: 20px 0;">
+                Please review this registration in your admin dashboard.
+              </p>
+              
+              <div style="text-align: center; margin: 30px 0;">
+                <a href="#" style="display: inline-block; background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%); color: #ffffff; text-decoration: none; padding: 14px 32px; border-radius: 6px; font-weight: bold; font-size: 16px;">Go to Dashboard</a>
+              </div>
+            </td>
+          </tr>
+          
+          <!-- Footer -->
+          <tr>
+            <td style="background-color: #f9fafb; padding: 30px; text-align: center; border-top: 1px solid #e5e7eb;">
+              <p style="color: #10b981; font-weight: bold; font-size: 16px; margin: 0;">EduPlatform Admin</p>
+              <p style="color: #9ca3af; font-size: 12px; margin: 20px 0 0 0;">
+                © <%= new Date().getFullYear() %> EduPlatform. All rights reserved.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

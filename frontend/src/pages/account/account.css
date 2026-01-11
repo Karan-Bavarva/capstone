@@ -1,0 +1,24 @@
+.account-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background: #f9fafb;
+}
+
+.account-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 420px;
+}
+
+.role-badge {
+  text-transform: capitalize;
+}
+
+.status-badge {
+  font-weight: 500;
+}

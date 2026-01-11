@@ -1,0 +1,43 @@
+.course-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+.course-card:hover {
+  transform: translateY(-3px);
+}
+.course-image-wrapper {
+  height: 160px;
+  overflow: hidden;
+}
+.course-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.course-content {
+  padding: 1rem;
+}
+.common-btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.common-btn:hover {
+  background-color: #0056b3;
+}
+.delete-btn {
+  background-color: #dc3545;
+}
+.delete-btn:hover {
+  background-color: #b02a37;
+}

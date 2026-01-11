@@ -1,0 +1,73 @@
+# ------------------------------
+# Node / JavaScript
+# ------------------------------
+todos.md
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+uploads/
+
+# Environment files
+frontend/.env
+frontend/package-lock.json
+frontend/yarn.lock
+
+backend/.env
+backend/package-lock.json
+backend/yarn.lock
+
+# ------------------------------
+# React (Vite / CRA / Next)
+# ------------------------------
+frontend/dist/
+frontend/build/
+frontend/.vite/
+*.tsbuildinfo
+
+# Next.js (if stored inside frontend)
+frontend/.next/
+frontend/out/
+
+# ------------------------------
+# Express.js
+# ------------------------------
+backend/node_modules/
+backend/logs/
+backend/*.log
+backend/tmp/
+backend/coverage/
+
+# build outputs (if express creates build folder)
+backend/build/
+backend/dist/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+logs/
+debug.log
+
+# ------------------------------
+# OS files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# IDE / editor
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.cache
+.cache/
