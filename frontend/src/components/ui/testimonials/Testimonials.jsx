@@ -11,24 +11,24 @@ const Testimonials = () => {
       image:
         "https://th.bing.com/th?q=Current+Bachelor&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock",
     },
-    {
-      id: 2,
-      name: "Jane Smith",
-      position: "Student",
-      message:
-        "I've learned more here than anywhere else. The interactive lessons and quizzes make learning enjoyable and fun.",
-      image:
-        "https://th.bing.com/th/id/OIP.GKAiW3oc2TWXVEeZAzrWOAHaJF?w=135&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-    },
-    {
-      id: 3,
-      name: "David Wilson",
-      position: "Student",
-      message:
-        "Highly recommended! The structure of the courses helps you learn step-by-step without feeling overwhelmed.",
-      image:
-        "https://th.bing.com/th/id/OIP.GKAiW3oc2TWXVEeZAzrWOAHaJF?w=135&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-    },
+    // {
+    //   id: 2,
+    //   name: "Jane Smith",
+    //   position: "Student",
+    //   message:
+    //     "I've learned more here than anywhere else. The interactive lessons and quizzes make learning enjoyable and fun.",
+    //   image:
+    //     "https://th.bing.com/th/id/OIP.GKAiW3oc2TWXVEeZAzrWOAHaJF?w=135&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    // },
+    // {
+    //   id: 3,
+    //   name: "David Wilson",
+    //   position: "Student",
+    //   message:
+    //     "Highly recommended! The structure of the courses helps you learn step-by-step without feeling overwhelmed.",
+    //   image:
+    //     "https://th.bing.com/th/id/OIP.GKAiW3oc2TWXVEeZAzrWOAHaJF?w=135&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    // },
     {
       id: 4,
       name: "Sophia Brown",
