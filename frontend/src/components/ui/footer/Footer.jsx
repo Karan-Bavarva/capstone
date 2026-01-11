@@ -16,8 +16,8 @@ const Footer = () => {
     >
       <div className="max-w-6xl mx-auto text-center px-4">
         <p className="text-sm md:text-base leading-relaxed">
-          &copy; {new Date().getFullYear()} Your E-Learning Platform. All rights
-          reserved. <br /> Made with ❤️ by{" "}
+          &copy; {new Date().getFullYear()} Edu-Platform. All rights
+          reserved.
           <a
             href="#"
             className="font-semibold underline hover:text-green-200 transition"
@@ -27,7 +27,7 @@ const Footer = () => {
         </p>
 
         {/* Social Icons */}
-        <div className="flex justify-center gap-6 mt-4 text-2xl">
+        {/* <div className="flex justify-center gap-6 mt-4 text-2xl">
           <a
             href="#"
             className="hover:text-green-200 transition"
@@ -51,7 +51,7 @@ const Footer = () => {
           >
             <AiFillInstagram />
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
