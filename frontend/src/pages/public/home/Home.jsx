@@ -48,8 +48,8 @@ const Home = () => {
   }, []);
 
   const stats = [
-    { icon: Users, value: "50K+", label: "Active Students" },
-    { icon: BookOpen, value: "500+", label: "Online Courses" },
+    { icon: Users, value: "10+", label: "Active Students" },
+    { icon: BookOpen, value: "10+", label: "Online Courses" },
     { icon: Award, value: "95%", label: "Success Rate" },
     { icon: TrendingUp, value: "4.8/5", label: "Average Rating" },
   ];
@@ -262,12 +262,12 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-6 border rounded-xl">
               <Mail className="mx-auto text-green-600 mb-2" />
-              <p>support@learnhub.com</p>
+              <p>karanbavarva19@gmail.com</p>
             </div>
 
             <div className="p-6 border rounded-xl">
               <Phone className="mx-auto text-green-600 mb-2" />
-              <p>+1 800 123 4567</p>
+              <p>+49 1556 062 9586</p>
             </div>
 
             <div className="p-6 border rounded-xl">
