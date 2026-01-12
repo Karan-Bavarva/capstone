@@ -272,7 +272,7 @@ const Home = () => {
 
             <div className="p-6 border rounded-xl">
               <MapPin className="mx-auto text-green-600 mb-2" />
-              <p>Potsdam, Germany</p>
+              <p>Potsdam, Germany </p>
             </div>
           </div>
         </div>
