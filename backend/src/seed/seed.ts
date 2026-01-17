@@ -6,11 +6,12 @@ import bcrypt from 'bcrypt';
 const seed = async () => {
   await mongoose.connect(env.MONGO_URI);
   const users = [
-    { name: 'Admin User', email: 'admin@edu.test', role: 'ADMIN', status: 'ACTIVE' },
-    { name: 'Tutor User', email: 'tutor@edu.test', role: 'TUTOR', status: 'ACTIVE' },
-    { name: 'Student User', email: 'student@edu.test', role: 'STUDENT', status: 'ACTIVE' }
+    { name: 'Admin', email: 'karanbavarva19@gmail.com', role: 'ADMIN', status: 'ACTIVE' },
+    { name: 'Tutor', email: 'tutor-eduplatform@yopmail.com', role: 'TUTOR', status: 'ACTIVE' },
+    { name: 'Student User', email: 'student-eduplatform@yopmail.com', role: 'STUDENT', status: 'ACTIVE' }
   ];
-  const password = await bcrypt.hash('Password123!', 10);
+  // const password = await bcrypt.hash('Password123!', 10);
+  const password = await bcrypt.hash('Test@123', 10);
   for (const u of users) {
     const exists = await User.findOne({ email: u.email });
     if (!exists) {
