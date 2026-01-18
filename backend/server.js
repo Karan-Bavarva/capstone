@@ -7,7 +7,7 @@ import ejs from 'ejs';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import { connectDB } from './config/db';
+// import { connectDB } from './config/db';
 import authRoutes from './routes/authRoutes';
 import courseRoutes from './routes/courseRoutes';
 import adminRoutes from './routes/adminRoutes';
