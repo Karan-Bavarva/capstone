@@ -55,4 +55,8 @@ const start = async () => {
   app.listen(env.PORT, () => console.log(`Server running on port ${env.PORT}`));
 };
 
+app.get("/", (req, res) => {
+  res.send("OpenLearn Backend is running...");
+});
+
 start();
