@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only server.js",
+    "start": "node dist/server.js",
     "build": "tsc -p .",
     "start": "node server.js",
     "seed": "ts-node src/seed/seed.ts",
