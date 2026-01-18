@@ -1,5 +1,5 @@
-import express from 'express';
 import env from './config/env';
+import express from 'express';
 import ejs from 'ejs';
 import cors from 'cors';
 import helmet from 'helmet';
