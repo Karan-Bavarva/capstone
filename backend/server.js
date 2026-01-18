@@ -1,9 +1,9 @@
 import express from 'express';
+import env from './config/env';
 import ejs from 'ejs';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import env from './config/env';
 import { connectDB } from './config/db';
 import authRoutes from './routes/authRoutes';
 import courseRoutes from './routes/courseRoutes';
