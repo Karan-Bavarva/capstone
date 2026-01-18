@@ -2,6 +2,11 @@ import axios from 'axios';
 
 const API_BASE = '/api/reviews';
 
+const API = axios.create({
+  baseURL: "https://openlearn-backend.onrender.com/api"
+});
+
+
 export const getCourseRating = async (courseId) => {
   const res = await axios.get(`${API_BASE}/${courseId}`);
   return res.data;
