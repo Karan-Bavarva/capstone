@@ -1,7 +1,7 @@
 // import env from './config/env';
 import dotenv from "dotenv";
 dotenv.config();
-
+import connectDB from "./src/config/db.ts";
 import express from 'express';
 import ejs from 'ejs';
 import cors from 'cors';
