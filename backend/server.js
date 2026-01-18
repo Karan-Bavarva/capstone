@@ -1,4 +1,7 @@
-import env from './config/env';
+// import env from './config/env';
+import dotenv from "dotenv";
+dotenv.config();
+
 import express from 'express';
 import ejs from 'ejs';
 import cors from 'cors';
